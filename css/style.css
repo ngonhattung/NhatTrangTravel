@@ -1,0 +1,121 @@
+
+body{
+    font-size: 13px;
+    font-family: "Noto Sans";
+    margin: 0;
+    color: #fff;
+}
+.video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media(max-aspect-ratio: 16/9){
+    .video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-aspect-ratio: 16/9){
+    .video{
+        width: auto;
+        height: 100%;
+    }
+}
+#main-menu >div >div{
+    padding-left: 50px;
+    padding-right: 50px;
+   
+}
+#main-menu{
+    width: 100%;
+}
+#main-menu .sub-menu{
+    display: flex;
+    justify-content: space-between;
+}
+#main-menu .sub-menu>ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#main-menu .sub-menu a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgba(255,255,255,.7);
+}
+#main-menu .sub-menu a:hover
+{
+    color: orange;
+}
+.nav-bar{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo img
+{
+    width: 100px;
+    height: 70px;
+}
+.menu-nav{
+    display: flex;
+    list-style: none;
+    margin-right: -150px;
+}
+.menu-nav a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color:rgba(255,255,255,.7);
+    font-weight: 700;
+}
+.menu-nav li a:hover{
+    color: orange;
+}
+.order li{
+    list-style: none;
+    background-color: orange;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order li a{
+    color: #fff;
+    text-decoration: none;
+}
+.order li:hover{
+    opacity: 0.8;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 75px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.content h4{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    margin-top: 0;
+}
+.content
+{
+    text-align: left;
+    margin-left: 12%;
+    margin-top: 18%;
+}
