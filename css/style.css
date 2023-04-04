@@ -144,11 +144,12 @@ nav{
 
 
 
-.why-travel {
+#page-2{
     width: 100%;
     background-color: rgb(201, 241, 228);
-    margin-top: auto;
+    margin-top: 320px;
     color: black;
+    height: 1400px;
 }
 .content-why {
     display: flex;
