@@ -3,7 +3,6 @@ body{
     font-size: 13px;
     font-family: "Noto Sans";
     margin: 0;
-    color: #fff;
 }
 .video{
     position: absolute;
@@ -120,7 +119,28 @@ nav{
     margin-top: 18%;
 }
 
+.sub-title-pg3{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+.title-pg3{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+      
+}
+.title-pg3 h2{
+    font-size: 50px;
+    width: 300px;
+    font-family: "Wulkan Display Medium",serif;
+    margin: 0;
 
+}
 
 
 
