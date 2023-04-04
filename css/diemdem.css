@@ -4,7 +4,7 @@ body{
     font-family: "Noto Sans";
     margin: 0;
     color: #fff;
-    height: auto;
+    height: 100px;
 }
 .video{
     position: absolute;
