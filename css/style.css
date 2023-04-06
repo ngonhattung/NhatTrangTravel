@@ -418,5 +418,23 @@ footer
 }
 .footer-bottom
 {
-
+    background-color: rgb(221, 227, 239);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.img-footerbottom
+{
+    height: 60px;
+    width: auto;
+    margin-right: 1rem;
+}
+.img-footerlogo
+{
+    display: flex;
+    margin-right: 13px;
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
 }
