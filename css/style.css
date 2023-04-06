@@ -1,86 +1,99 @@
-
-body{
+body {
     font-size: 13px;
     font-family: "Noto Sans";
     margin: 0;
 }
-.video{
+
+.video {
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: -1;
 }
-@media(max-aspect-ratio: 16/9){
-    .video{
+
+@media(max-aspect-ratio: 16/9) {
+    .video {
         width: 100%;
         height: auto;
     }
 }
-@media(max-aspect-ratio: 16/9){
-    .video{
+
+@media(max-aspect-ratio: 16/9) {
+    .video {
         width: auto;
         height: 100%;
     }
 }
-#main-menu >div >div{
+
+#main-menu>div>div {
     padding-left: 50px;
     padding-right: 50px;
-   
+
 }
-#main-menu{
+
+#main-menu {
     width: 100%;
 }
-#main-menu .sub-menu{
+
+#main-menu .sub-menu {
     display: flex;
     justify-content: space-between;
 }
-#main-menu .sub-menu>ul{
+
+#main-menu .sub-menu>ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
 }
-#main-menu .sub-menu a{
+
+#main-menu .sub-menu a {
     display: block;
     padding: 10px;
     text-decoration: none;
     font-weight: 700;
-    color: rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
 }
-#main-menu .sub-menu a:hover
-{
+
+#main-menu .sub-menu a:hover {
     color: orange;
 }
-.nav-bar{
+
+.nav-bar {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#logo img
-{
+
+#logo img {
     width: 100px;
     height: 70px;
 }
-.menu-nav{
+
+.menu-nav {
     display: flex;
     list-style: none;
     margin-right: -150px;
 }
-.menu-nav a{
+
+.menu-nav a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    color:rgba(255,255,255,.7);
+    color: rgba(255, 255, 255, .7);
     font-weight: 700;
 }
-.menu-nav li a:hover{
+
+.menu-nav li a:hover {
     color: orange;
 }
-.order li{
+
+.order li {
     list-style: none;
     background-color: orange;
     width: 130px;
@@ -90,36 +103,41 @@ nav{
     align-items: center;
     justify-content: center;
 }
-.order li a{
+
+.order li a {
     color: #fff;
     text-decoration: none;
 }
-.order li:hover{
+
+.order li:hover {
     opacity: 0.8;
 }
-.content{
+
+.content {
     text-align: center;
 }
-.content h1{
+
+.content h1 {
     font-size: 75px;
     color: #fff;
     font-weight: 400;
     margin-bottom: 0;
 }
-.content h4{
+
+.content h4 {
     font-size: 30px;
     color: #fff;
     font-weight: 400;
     margin-top: 0;
 }
-.content
-{
+
+.content {
     text-align: left;
     margin-left: 12%;
     margin-top: 18%;
 }
 
-.sub-title-pg3{
+.sub-title-pg3 {
     display: flex;
     justify-content: center;
     font-family: 'Inter';
@@ -128,29 +146,33 @@ nav{
     font-size: 12px;
     line-height: 15px;
 }
-.title-pg3{
+
+.title-pg3 {
     text-align: center;
     display: flex;
     justify-content: center;
-      
+
 }
-.title-pg3 h2{
+
+.title-pg3 h2 {
     font-size: 50px;
     width: 300px;
-    font-family: "Wulkan Display Medium",serif;
+    font-family: "Wulkan Display Medium", serif;
     margin: 0;
 
 }
 
 
 
-#page-2{
+#page-2 {
     width: 100%;
     background-color: rgb(201, 241, 228);
     margin-top: 320px;
     color: black;
     height: 1400px;
+
 }
+
 .content-why {
     display: flex;
     justify-content: center;
@@ -269,36 +291,37 @@ nav{
 }
 
 
-.page4
-{
+.page4 {
     height: 980px;
     width: 100%;
     background-image: url(/images/why/resort-1-768x514.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    
+
 }
 
-.contentkhampha
-{
+.contentkhampha {
     height: 830px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    align-items: center;   
+    justify-content: center;
+    align-items: center;
 }
-.contentkhampha h2{
+
+.contentkhampha h2 {
     font-size: 20px;
     color: #fff;
     font-family: 600;
 }
-.contentkhampha h1{
+
+.contentkhampha h1 {
     font-size: 120px;
     color: #fff;
 }
-.btnResort{
+
+.btnResort {
     width: 200px;
     height: 50px;
     background: none;
@@ -309,22 +332,91 @@ nav{
     font-weight: 600;
 
 }
-.btnResort:hover{
+
+.btnResort:hover {
     background-color: #fff;
     color: black;
 }
-.location
-{
+
+.location {
     display: flex;
     align-items: center;
     margin-left: 200px;
 }
-.location img{
+
+.location img {
     width: 20px;
 }
-.location h4{
+
+.location h4 {
     font-size: 15px;
     margin: 0;
     color: #fff;
     font-weight: 200;
+}
+
+.page-6 {}
+
+title-page5 {}
+
+.content-page-6 {
+    color: black;
+    text-align: center;
+    max-width: 200px;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.8rem;
+}
+
+.title-page-6 {
+    text-align: center;
+}
+
+.conten-page6 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 150px;
+}
+
+.imgpage6 {
+    margin-top: 2rem;
+    object-fit: contain;
+    height: 670px;
+    width: 485px;
+    text-align: center;
+}
+
+.content-page6left {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 365px;
+}
+footer
+{
+    height: 690px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    
+}
+.div-footer
+{
+    height: 250px;
+    width: 200px;
+}
+.footer-top
+{
+    background-color: rgb(188, 207, 246);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-bottom
+{
+
 }
