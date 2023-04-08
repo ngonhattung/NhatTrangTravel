@@ -137,7 +137,7 @@ nav {
     margin-top: 18%;
 }
 
-.sub-title-pg3 {
+.sub-title-pg5 {
     display: flex;
     justify-content: center;
     font-family: 'Inter';
@@ -147,23 +147,93 @@ nav {
     line-height: 15px;
 }
 
-.title-pg3 {
+.title-pg5 {
     text-align: center;
     display: flex;
     justify-content: center;
-
+    margin-bottom: 40px;
 }
 
-.title-pg3 h2 {
+.title-pg5 h2 {
     font-size: 50px;
-    width: 300px;
+    width: 320px;
     font-family: "Wulkan Display Medium", serif;
     margin: 0;
-
+    font-weight: 600;
 }
 
+.container-pg5{
+    width: 1300px;
+    margin: 0px auto;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.content-card{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    justify-content: space-evenly;
+}
+.content-card li{
+    width: 360px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.img-card img{
+    width: 360px;
+    height: 580px;
+}
+.img-card{
+    position: relative;
+}
+.title-img {
+    position: absolute;
+    margin: 0 auto;
+    max-width: 13.5rem;
+    top: 3.5625rem;
+    left: 0;
+    right: 0;
+}
 
+.title-img h4{
+    color: #fff;
+    font-size: 34px;
+    font-family: "Wulkan Display Medium", serif;
+}
+.title-img p{
+    margin: 0;
+    display: inline;
+}
+.card-content p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
 
+.sub-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.card-content button{
+    width: 170px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background: none;
+}
+.card-content button:hover{
+    background-color: #00bfff;
+    color: #fff;
+}
 #page-2 {
     width: 100%;
     background-color: rgb(201, 241, 228);
@@ -355,9 +425,6 @@ nav {
     font-weight: 200;
 }
 
-.page-6 {}
-
-title-page5 {}
 
 .content-page-6 {
     color: black;
