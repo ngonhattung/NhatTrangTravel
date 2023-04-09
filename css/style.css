@@ -1,5 +1,5 @@
 body {
-    font-size: 13px;
+    font-size: 13px ;
     font-family: "Noto Sans";
     margin: 0;
 }
@@ -32,6 +32,8 @@ body {
 }
 
 #main-menu {
+    position: absolute;
+    top:0;
     width: 100%;
 }
 
@@ -71,8 +73,8 @@ nav {
 }
 
 #logo img {
-    width: 100px;
-    height: 70px;
+    width: 120px;
+    height: 100px;
 }
 
 .menu-nav {
@@ -134,7 +136,10 @@ nav {
 .content {
     text-align: left;
     margin-left: 12%;
-    margin-top: 18%;
+    margin-top: 30%;
+}
+.image-slider{
+    list-style-type: none;
 }
 
 .sub-title-pg5 {
@@ -191,8 +196,8 @@ nav {
 .title-img {
     position: absolute;
     margin: 0 auto;
-    max-width: 13.5rem;
-    top: 3.5625rem;
+    max-width: 220px;
+    top: 20px;
     left: 0;
     right: 0;
 }
@@ -206,11 +211,7 @@ nav {
     margin: 0;
     display: inline;
 }
-.card-content p{
-    font-size: 1rem;
-    line-height: 1.5rem;
-    text-align: center;
-}
+
 
 .sub-card{
     display: flex;
@@ -229,6 +230,12 @@ nav {
     border-radius: 50px;
     border: 1px solid black;
     background: none;
+}
+.card-content p{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 .card-content button:hover{
     background-color: #00bfff;
@@ -389,6 +396,8 @@ nav {
 .contentkhampha h1 {
     font-size: 120px;
     color: #fff;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .btnResort {
