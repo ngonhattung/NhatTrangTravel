@@ -237,32 +237,41 @@ nav {
 #page-2 {
     width: 100%;
     background-color: rgb(201, 241, 228);
-    margin-top: 320px;
+    margin-top: 300px;
     color: black;
-    height: 1400px;
-
+    height: 1420px;
 }
 
 .content-why {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 25px;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 60px;
     font-family: Arial, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif;
     text-shadow: 2px 2px grey;
 }
 
+.sub-title-pg2
+{
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: "Wulkan Display Medium",serif;
+    padding: 30px;
+    font-size: 2.25rem;
+}
 .content-gird {
     height: 1050px;
     display: grid;
-    grid-template-columns: 20% 18% 24% 18% 20%;
+    grid-template-columns: 20% 18% 24% 25% 15%;
 }
 
 .gird-2 img {
     object-fit: contain;
     height: 80px;
+    margin-top: -100px;
 }
 
 .map-travel,
@@ -288,17 +297,22 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
+    letter-spacing: -0.03em;
+    font-family: "Basetica Light",sans-serif;
 }
 
 .map-travel p,
 .Positive_impact p,
 .Cb-mb p {
+    font-size: 16px;
     padding: 4px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     text-align: center;
-
+    letter-spacing: -0.01em;
+    font-family: serif;
+    
 }
 
 .Positive_impact {
@@ -317,9 +331,9 @@ nav {
 
 .img_pos {
     position: absolute;
-    height: 430px;
-    width: 300px;
-
+    height: 450px;
+    width: 330px;
+    transform: rotate(-3deg);
 }
 
 .img_pos2 {
@@ -327,12 +341,13 @@ nav {
     padding: 0px;
     margin-top: 370px;
     margin-left: 180px;
-    height: 295px;
-    width: 230px;
+    height: 345px;
+    width: 270px;
+    /* transform: rotate(-3deg); */
 }
 
 .Cb-mb {
-    margin-top: 0px;
+    margin-top: -110px;
     margin-left: 140px;
 }
 
@@ -350,16 +365,6 @@ nav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
 }
-
-.img_pos3 {
-    position: relative;
-    height: 350px;
-    width: 300px;
-    margin-top: 630px;
-    margin-left: 400px;
-    border: 2px solid;
-}
-
 
 .page4 {
     height: 980px;
@@ -481,7 +486,8 @@ footer
     background-color: rgb(188, 207, 246);
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 5rem;
 }
 .footer-bottom
 {
