@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.img-slider-pg3').slick({
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         infinite: false,
         prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
