@@ -52,22 +52,36 @@ body{
 .slick-dots .slick-active button{
     background-color: rgb(33, 125, 230);
 }
+
+.slick-initialized .slick-slide{
+    position: relative;
+}
 .title-bg-slider{
     position: absolute;
     bottom: 25%;
     margin: 0 auto;
     left: 200px;
-    color: #fff;
+    color:#fff;
 }
 .title-bg-slider p{
     font-size: 2rem;
     font-weight: 600;
+    margin-bottom: 15px;
 }
 .title-bg-slider h1
 {
     font-size: 3em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
+    margin: 0;
+}
+.title-bg-slider .slider2
+{
+    position: absolute;
+    bottom: 25%;
+    margin: 0 auto;
+    left: 200px;
+    color: #fff;
 }
 #main-menu >div >div{
     padding-left: 50px;
