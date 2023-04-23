@@ -160,4 +160,129 @@ nav{
 .order li:hover{
     opacity: 0.8;
 }
+.pg2-container-diemden{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 17px;
+    color: #666;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+.description-pg2{
+    width: 62%;
+    margin-right: 4%;
+}
+.link-info-pg2{
+    margin-left: 4%;
+    width: 30%;
+}
+.link-info-pg2{
+    display: flex;
+    flex-direction: column;
+}
+.link-info-pg2 h2{
+    margin-top: 0;
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 40px;
+}
+.link-info-pg2 a{
+    text-decoration: none;
+}
+@media screen and (max-width: 819px){
+    .pg2-container-diemden{
+        display: block;
+    }
+    .description-pg2{
+       width: 100%;
+       margin: 0;
+    }
+    .link-info-pg2{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 389px){
+    .pg2-container-diemden{
+        display: block;
+    }
+    .description-pg2{
+       width: 100%;
+       margin: 0;
+    }
+    .link-info-pg2{
+        margin: 0;
+    }
+}
+.diemden-pg3{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f8f8f2;
+}
+.pg3-container-diemden{
+    width: 78%;
+    margin-left: 13%;
+    font-size: 17px;
+    color: #666;
+}
+.pg3-container-diemden h1{
+    font-size: 50px;
+    margin-bottom: 0;
+    font-family: "Noto Serif";
+    font-weight: 400;
+    color: black;
+}
+.sub-list-diemden-pg3 img{
+    width: 100px;
+    height: 100px;
+    margin-right: 30px;
+}
+.sub-list-diemden-pg3{
+    display: flex;
+    margin-top: 50px;
+    width: 48%;
+    margin-right: 5%;
+}
 
+.sub-list li{
+    display: list-item;
+}
+.pg3-container-diemden h4{
+   font-family: "Noto Serif";
+   font-weight: 400;
+   font-size: 30px;
+   margin: 0;
+   color: black;
+}
+.list-diemden-pg3{
+    display: flex;
+    
+}
+@media screen and (max-width: 819px){
+    .sub-list-diemden-pg3{
+        display: flex;
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    .list-diemden-pg3{
+        display: block;
+        
+    }
+}
+@media screen and (max-width: 389px){
+    .sub-list-diemden-pg3{
+        display: flex;
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    .list-diemden-pg3{
+        display: block;
+        
+    }
+}
