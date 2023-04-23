@@ -228,6 +228,7 @@ nav{
     margin-left: 13%;
     font-size: 17px;
     color: #666;
+    line-height: 1.6rem;
 }
 .pg3-container-diemden h1{
     font-size: 50px;
@@ -235,6 +236,7 @@ nav{
     font-family: "Noto Serif";
     font-weight: 400;
     color: black;
+    margin-bottom: 40px;
 }
 .sub-list-diemden-pg3 img{
     width: 100px;
@@ -246,6 +248,7 @@ nav{
     margin-top: 50px;
     width: 48%;
     margin-right: 5%;
+    margin-bottom: 40px;
 }
 
 .sub-list li{
@@ -285,4 +288,135 @@ nav{
         display: block;
         
     }
+}
+
+.img-slider-pg4 img{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.content-slider-pg4
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(179, 174, 174, 0.521);
+
+}
+.content-slider-pg4 h1{
+    font-family: "Noto Serif";
+   font-weight: 400;
+   font-size: 40px;
+   margin-bottom: 0;
+}
+.content-slider-pg4 p{
+    font-size: 17px;
+    color: #666;
+}
+.content-slider-pg4 a{
+    font-size: 17px;
+    text-decoration: none;
+    color: orange;
+    font-weight: 700;
+    
+}
+.slick-prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+   margin-left: 10%;
+    background: none;
+    font-size: 50px;
+    border: none;
+    color: #bbb2b2;
+    z-index: 2;
+}
+.slick-prev :hover{
+    color: black;
+}
+.slick-next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    margin-right: 10%;
+   background: none;
+    font-size: 50px;
+    border: none;
+    color: #bbb2b2;
+    z-index: 2;
+}
+.slick-next :hover{
+    color: black;
+}
+.container-pg5-diemden{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    
+}
+.diemden-pg5
+{
+    border-bottom: 1px solid rgba(179, 174, 174, 0.521);
+}
+.pg5-content{
+    margin-left: 13%;
+   margin-right: 10%;
+}
+.pg5-content h1{
+    font-family: "Noto Serif";
+    font-weight: 500;
+    font-size: 40px;
+}
+.pg5-content p{
+    color: #666;
+}
+.pg5-img {
+    margin-right: 13%;
+    
+}
+.pg5-img img{
+    width: 500px;
+    height: 650px;
+}
+.pg5-content button{
+    width: 130px;
+    height: 50px;
+    background-color: orange;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+.pg5-content button:hover{
+    background-color: rgba(255, 166, 0, 0.507);
+}
+#footer{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+.info h1{
+    font-size: 15px;
+    color: #666;
+}
+.info p{
+    color: #666;
+}
+.logo img{
+    width: 100px;
+    height: 70px;
+}
+.link-search img
+{
+    margin: 10px;
 }
