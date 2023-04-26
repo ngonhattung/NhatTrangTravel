@@ -601,8 +601,9 @@ nav {
 }
 #footer{
     margin-top: 90px;
-    margin-bottom: 90px;
     border-top: 1px solid rgba(192, 185, 185, 0.644);
+    background-image: ("..\images\why\bac.png");
+    height: 640px;
 }
 .footer-container{
     display: flex;
