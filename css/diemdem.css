@@ -123,6 +123,7 @@ body{
     text-decoration: none;
     font-weight: 700;
     color: rgba(255,255,255,.7);
+    font-size: 13px;
 }
 #main-menu .sub-menu a:hover
 {
@@ -139,8 +140,8 @@ nav{
 }
 #logo img
 {
-    width: 100px;
-    height: 70px;
+    width: 130px;
+    height: 130px;
 }
 .menu-nav{
     display: flex;
@@ -153,6 +154,7 @@ nav{
     text-decoration: none;
     color:rgba(255,255,255,.7);
     font-weight: 700;
+    font-size: 13px;
 }
 .menu-nav li a:hover{
     color: orange;
@@ -174,6 +176,49 @@ nav{
 .order li:hover{
     opacity: 0.8;
 }
+/* @media screen and (max-width: 767px){
+    .sub-menu ul li{
+        display: none;
+    }
+    .nav-bar{
+        position: absolute;
+        top: 0;
+        margin: 0;
+        padding: 0;
+    }
+    #main-menu >div >div {
+        padding: 0;
+        
+    }
+    .menu-nav{
+        position: absolute;
+        left: 0;
+        height: 92vh;
+        width: 768px;
+        top:10vh;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .menu-nav a{
+        color: #666;
+    }
+
+    .order{
+        display: none;
+    }
+    #logo img{
+        width: 90px;
+        height: 90px;
+        padding-left: 50px;
+    }
+    .menu-responsive{
+        display: block !important;
+        position: absolute;
+        right: 0;
+    }
+} */
 .pg2-container-diemden{
     display: flex;
     align-items: center;
@@ -289,6 +334,10 @@ nav{
     .list-diemden-pg3{
         display: block;
         
+    }
+    .pg3-container-diemden h1{
+        font-size: 35px;
+        line-height: 1;
     }
 }
 @media screen and (max-width: 389px){
@@ -410,6 +459,28 @@ nav{
 .pg5-content button:hover{
     background-color: rgba(255, 166, 0, 0.507);
 }
+@media screen and (max-width: 767px){
+    .container-pg5-diemden{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .pg5-img {
+        margin: 0;
+    }
+    .pg5-img img{
+        width: 635px;
+        height: 800px;
+    }
+    .pg5-content{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+    .container-pg5-diemden{
+        padding-top: 0px
+    }
+}
 #footer{
     margin-top: 90px;
     margin-bottom: 90px;
@@ -457,4 +528,49 @@ nav{
 .info-contact h1{
     font-size: 20px;
     color: #666;
+}
+.menu-responsive{
+    display: none;
+}
+.menu-responsive div{
+    width: 25px;
+    height: 3px;
+    background-color: #666;
+    margin: 5px;
+}
+@media screen and (max-width: 767px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0 8%;
+    }
+    #footer{
+        margin: 0;
+    }
+    .info-link{
+        margin-bottom: 30px;
+    }
+    .logo img{
+        width: 120px !important;
+        height: 120px !important;
+    }
+    
+    
+}
+@media screen and (max-width: 767px){
+    .content-slider-pg4{
+        height: 400px;
+        border: none;
+    }
+    
+    .slick-prev{
+        display: none !important;
+    }
+    .slick-next{
+        display: none !important;
+    }
+    .img-slider-pg4{
+        margin-top: 40px;
+    }
+    
 }

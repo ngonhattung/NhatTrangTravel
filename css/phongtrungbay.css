@@ -30,11 +30,9 @@ body{
     text-decoration: none;
     font-weight: 700;
     color: #666;
-}
-.find{
-    width: 300px;
     font-size: 13px;
 }
+
 #main-menu .sub-menu a:hover
 {
     color: orange;
@@ -159,7 +157,6 @@ nav{
     text-decoration: none;
     font-size: 17px;
     color: #666;
-    margin-top: 20px;
 }
 .info-link {
     display: flex;
@@ -180,6 +177,22 @@ nav{
     font-size: 20px;
     color: #666;
 }
-.info-contact p{
-    margin-top: 30px;
+@media screen and (max-width: 767px){
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0 8%;
+    }
+    #footer{
+        margin: 0;
+    }
+    .info-link{
+        margin-bottom: 30px;
+    }
+    .logo img{
+        width: 120px !important;
+        height: 120px !important;
+    }
+    
+    
 }
