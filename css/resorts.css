@@ -229,11 +229,11 @@ nav{
 }
 .pg3-container{
     display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 83.33333%;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     padding-top: 150px;
-    padding-bottom: 150px;
 }
 .content-right{
     display: flex;
@@ -283,13 +283,26 @@ nav{
     background-color: #f8f8f2;
 }
 .list-resorts li img{ 
-    width: calc(100% / 3);
+    width: 360px;
     height: 480px;
 }
+.pg4-resorts{
+    background-color: #f8f8f2 ;
+    
+}
+.pg4-container{
+    width: 83.33333%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 .list-resorts{
-    padding: 0;
-    margin: 0;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 0;
+    padding-top: 4%;
 }
 @media screen and (max-width: 767px){
     .footer-container{
@@ -309,4 +322,19 @@ nav{
     }
     
     
+}
+.link-resorts{
+    position: relative;
+    
+
+}
+.title-link-resort{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
 }
