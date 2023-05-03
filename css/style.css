@@ -9,9 +9,11 @@ body {
     right: 0;
     bottom: 0;
     z-index: -1;
+    min-height: 100%;
+    min-width: 100%;
 }
 
-@media(max-aspect-ratio: 16/9) {
+ @media(max-aspect-ratio: 16/9) {
     .video {
         width: 100%;
         height: auto;
@@ -23,7 +25,7 @@ body {
         width: auto;
         height: 100%;
     }
-}
+} 
 
 #main-menu>div>div {
     padding-left: 50px;
@@ -66,8 +68,7 @@ body {
 }
 
 .nav-bar {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
 }
 
 nav {
@@ -142,11 +143,12 @@ nav {
     margin-left: 12%;
     margin-top: 30%;
 }
+
 .page-3-container{
     padding-top: 150px;
     padding-bottom:150px ;
     padding-left: 15%;
-    background-color: #a2d4f089;
+    background-color: #00bfff68;
 }
 .content-text-pg3
 {
@@ -184,10 +186,13 @@ nav {
     font-size: 20px;
     color: #fff;
     font-weight: 700;
+    text-align: center;
+    max-width: 190px;
+    margin: 0 auto;
 }
 .content-carousel-pg3{
     position: absolute;
-    max-width: 260px;
+    max-width: 300px;
     margin: 0 auto;
     bottom: 30px;
     left: 30px;
@@ -224,6 +229,20 @@ nav {
 .content-carousel-pg3 button:hover{
     background-color: #fff;
     color: black;
+}
+@media screen and (max-width: 821px){
+    .content-text-pg3 p{
+        font-size: 12px;
+    }
+    .content-text-pg3 h2{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 10px;
+        margin: 0;
+        
+    }
+    .slick-prev{
+        display: none !important;
+    }
 }
 .slick-prev{
     position: absolute;
@@ -360,138 +379,84 @@ nav {
     background-color: #00bfff;
     color: #fff;
 }
-#page-2 {
-    width: 100%;
-    margin-top: 240px;
-    background-color: rgb(201, 241, 228);
-    color: black;
-    height: 1420px;
-}
 
-.content-why {
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-weight: bold;
-    font-size: 60px;
-    font-family: Arial, Helvetica, sans-serif, 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 2px 2px grey;
-}
-
-.sub-title-pg2
-{
+.container-pg2{
+    padding-bottom: 5px;
     text-align: center;
-    font-size: 40px;
-    font-weight: lighter;
-    font-family: "Wulkan Display Medium",serif;
-    padding: 30px;
-    font-size: 2.25rem;
-}
-.content-gird {
-    height: 1050px;
-    display: grid;
-    grid-template-columns: 20% 18% 24% 25% 15%;
-}
-
-.gird-2 img {
-    object-fit: contain;
-    height: 80px;
-    margin-top: -100px;
-}
-
-.map-travel,
-.Positive_impact,
-.Cb-mb {
-    margin-top: 150px;
-    margin-right: 70px;
-    height: 300px;
-    width: 200px;
-}
-
-.map-travel img,
-.Positive_impact img,
-.Cb-mb img {
-    display: flex;
-    margin-left: 50px;
-}
-
-.map-travel h3,
-.Positive_impact h3,
-.Cb-mb h3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    letter-spacing: -0.03em;
-    font-family: "Basetica Light",sans-serif;
-}
-
-.map-travel p,
-.Positive_impact p,
-.Cb-mb p {
-    font-size: 16px;
-    padding: 4px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    letter-spacing: -0.01em;
-    font-family: serif;
-    
-}
-
-.Positive_impact {
-    margin-left: 130px;
-}
-
-.pic_pos {
+    width: 83.33333%;
+    margin: 0 auto;
     position: relative;
-    margin-left: 30px;
-    height: 880px;
+    height: 1300px;
+    padding-top: 100px;
+    margin-top: 10%;
 }
 
-.gird-3 {
-    margin-top: 30px;
+.title-pg2 h3{
+    font-size: 17px;
+    
+    margin: 0;
 }
-
-.img_pos {
+.title-pg2 p{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.img1-pg2{
+    width: 310px;
+    height: 500px;
     position: absolute;
-    height: 450px;
-    width: 330px;
-    transform: rotate(-3deg);
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-2deg);
 }
-
-.img_pos2 {
+.img2-pg2
+{
     position: absolute;
-    padding: 0px;
-    margin-top: 370px;
-    margin-left: 180px;
-    height: 345px;
-    width: 270px;
-    /* transform: rotate(-3deg); */
+    top: 38%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 300px;
+    transform:rotate(2deg) ;
 }
-
-.Cb-mb {
-    margin-top: -110px;
-    margin-left: 140px;
+.list-why{
+    list-style-type: none;
+    float: left;
+    position: absolute;
+    top: 30%;
 }
-
-.Cb-mb img {
-    height: 80px;
-    width: 80px;
+.list-why li{
+    max-width: 220px;
+    padding: 40px;
 }
-
-.gird-4 {
-    margin-left: 90px;
+.descrip-pg2{
+    float: right;
+    max-width: 300px;
+    font-family: "Noto Sans";
+    font-weight: 500;
+    font-size: 17px;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    color: black;
 }
-
-.gird-4 p {
-    margin-top: 35px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
+.list-why img{
+    width: 50px;
+    height: 50px;
 }
-
+.content-why h4{
+    font-size: 32px;
+    margin: 0;
+    color: black;
+    font-family: "Noto Sans";
+    font-weight: 500;
+}
+.content-why p{
+    font-size: 14px;
+    color: black;
+    font-family: "Noto Sans";
+    font-weight: 500;
+}
 .page4 {
     background-image: url(/images/why/resort-1-768x514.jpg);
     background-repeat: no-repeat;

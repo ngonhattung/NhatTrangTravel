@@ -170,9 +170,12 @@ nav{
     height: 350px;
     left: -25%;
 }
+
 #footer{
-    margin-top: 90px;
+    
     margin-bottom: 90px;
+    border-top: 1px solid rgba(192, 185, 185, 0.644);
+    
 }
 .footer-container{
     display: flex;
@@ -187,8 +190,8 @@ nav{
     color: #666;
 }
 .logo img{
-    width: 100px;
-    height: 70px;
+    width: 240px;
+    height: 240px;
 }
 .link-search img
 {
@@ -337,4 +340,142 @@ nav{
     color: #fff;
     font-weight: 700;
     text-align: center;
+}
+
+
+.page-3-container{
+    padding-top: 150px;
+    padding-bottom:150px ;
+    padding-left: 15%;
+    background-color: #00bfff68;
+}
+.content-text-pg3
+{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-right: 100px;
+    margin-top: 450px;
+}
+.content-text-pg3 p{
+    font-size: 15px;
+}
+.content-text-pg3 h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin: 0;
+    
+}
+.slider-item-pg3{
+    position: relative;
+}
+.img-pg3{
+    height: 700px;
+}
+.img-pg3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.title-carousel-pg3{
+    position: absolute;
+    top:20px;
+    left:50px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    max-width: 190px;
+    margin: 0 auto;
+}
+.content-carousel-pg3{
+    position: absolute;
+    max-width: 300px;
+    margin: 0 auto;
+    bottom: 30px;
+    left: 30px;
+    right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Wulkan Display Medium",serif;
+}
+.content-carousel-pg3 h4{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 0;
+}
+.content-carousel-pg3 p{
+    color: #fff;
+    line-height: 1.125rem;
+    font-family: "Basetica Light",sans-serif;
+    font-size: .875rem;
+}
+.content-carousel-pg3 button{
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+}
+.slick-initialized .slick-slide
+{
+    margin: 0 15px;
+}
+.content-carousel-pg3 button:hover{
+    background-color: #fff;
+    color: black;
+}
+@media screen and (max-width: 821px){
+    .content-text-pg3 p{
+        font-size: 12px;
+    }
+    .content-text-pg3 h2{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 10px;
+        margin: 0;
+        
+    }
+    .slick-prev{
+        display: none !important;
+    }
+}
+.slick-prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-color:#fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: black;
+    z-index: 2;
+    display: none;
+    font-size: 20px;
+    border: 2px dotted ;
+}
+.slick-prev:hover{
+    background-color: #6dc1ee6b;
+}
+.slick-next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color:#fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: black;
+    z-index: 2;
+    font-size: 20px;
+    border: 2px dotted ;
+}
+.slick-next:hover{
+    background-color: #6dc1ee6b;
+
 }
