@@ -171,6 +171,82 @@ nav{
     left: -25%;
 }
 
+.container-pg4{
+    padding-bottom: 5px;
+    text-align: center;
+    width: 83.33333%;
+    margin: 0 auto;
+    position: relative;
+    height: 1300px;
+    padding-top: 100px;
+}
+
+.title-pg4 h3{
+    font-size: 17px;
+    
+    margin: 0;
+}
+.title-pg4 p{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.img1-pg4{
+    width: 310px;
+    height: 500px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-2deg);
+}
+.img2-pg4
+{
+    position: absolute;
+    top: 38%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    height: 300px;
+    transform:rotate(2deg) ;
+}
+.list-why{
+    list-style-type: none;
+    float: left;
+    position: absolute;
+    top: 30%;
+}
+.list-why li{
+    max-width: 220px;
+    padding: 40px;
+}
+.descrip-pg4{
+    float: right;
+    max-width: 300px;
+    font-family: "Noto Sans";
+    font-weight: 500;
+    font-size: 17px;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    right: 0;
+    color: black;
+}
+.list-why img{
+    width: 50px;
+    height: 50px;
+}
+.content-why h4{
+    font-size: 32px;
+    margin: 0;
+    color: black;
+    font-family: "Noto Sans";
+    font-weight: 500;
+}
+.content-why p{
+    font-size: 14px;
+    color: black;
+    font-family: "Noto Sans";
+    font-weight: 500;
+}
 #footer{
     
     margin-bottom: 90px;
